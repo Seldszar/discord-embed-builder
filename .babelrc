@@ -1,0 +1,9 @@
+{
+  "presets": ["env"],
+  "plugins": ["transform-flow-strip-types"],
+  "env": {
+    "production": {
+      "presets": ["babili"]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "plugins": ["flowtype"],
+  "rules": {
+    "class-methods-use-this": "off",
+    "flowtype/define-flow-type": "warn",
+    "flowtype/use-flow-type": "warn"
+  }
+}
